@@ -21,7 +21,7 @@ tools:
    -  name: toolA
       publish: true
       subclass: CWL
-      primaryDescriptorPath: /tool.cwl
+      primaryDescriptorPath: /missing.cwl
       testParameterFiles:
         - /empty.json
 
