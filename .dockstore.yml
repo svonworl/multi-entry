@@ -18,14 +18,14 @@ workflows:
 
 tools:
 
-   -  name: toolA
+   -  name: foo
       publish: true
       subclass: CWL
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
         - /empty.json
 
-   -  name: toolB
+   -  name: foo
       publish: true
       subclass: CWL
       primaryDescriptorPath: /tool.cwl
