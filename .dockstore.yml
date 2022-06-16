@@ -2,15 +2,13 @@ version: 1.2
 
 workflows:
 
-   -  name: workflowA
-      publish: true
+   -  publish: true
       subclass: CWL
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
         - /empty.json
 
-   -  name: workflowB
-      publish: true
+   -  publish: true
       subclass: CWL
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
@@ -18,15 +16,13 @@ workflows:
 
 tools:
 
-   -  name: toolA
-      publish: true
+   -  publish: true
       subclass: CWL
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
         - /empty.json
 
-   -  name: toolB
-      publish: true
+   -  publish: true
       subclass: CWL
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
