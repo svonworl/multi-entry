@@ -8,13 +8,14 @@ workflows:
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
         - /empty.json
+        - empty.json
 
    -  name: workflowB
       publish: true
       subclass: CWL
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
-        - /empty.json
+        - empty.json
 
 tools:
 
@@ -24,10 +25,11 @@ tools:
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
         - /empty.json
+        - empty.json
 
    -  name: toolB
       publish: true
       subclass: CWL
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
-        - /empty.json
+        - empty.json
