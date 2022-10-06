@@ -8,6 +8,9 @@ workflows:
       primaryDescriptorPath: /workflow.cwl
       testParameterFiles:
         - /empty.json
+      authors:
+        - name: Foo Bar
+          email: sdfklfjksdl
 
    -  name: workflowB
       publish: true
@@ -24,6 +27,9 @@ tools:
       primaryDescriptorPath: /tool.cwl
       testParameterFiles:
         - /empty.json
+      authors:
+        - name: Bacon Bits
+          email: test@test.com
 
    -  name: toolB
       publish: true
