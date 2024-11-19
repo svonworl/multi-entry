@@ -2,7 +2,7 @@ version: 1.2
 
 workflows:
 
-   -  name: workflowA
+   -  name: workflowa
       publish: true
       subclass: CWL
       primaryDescriptorPath: /workflow.cwl
